@@ -1,0 +1,24 @@
+<!-- ============================================================
+     SOAP Test: getBookById
+     ============================================================ -->
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:cat="http://catalog.globalbooks.com/types/v1"
+    xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+
+    <soapenv:Header>
+        <wsse:Security>
+            <wsse:UsernameToken>
+                <wsse:Username>catalog-client</wsse:Username>
+                <wsse:Password>s3cur3P@ss</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+
+    <soapenv:Body>
+        <cat:getBookByIdRequest>
+            <cat:bookId>B002</cat:bookId>
+        </cat:getBookByIdRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>

@@ -1,0 +1,31 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: payments-service
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      simple:
+        # Q11: Retry mechanism with exponential backoff
+        retry:
+          enabled: true
+          initial-interval: 1000      # 1 second
+          max-attempts: 3             # 3 attempts total
+          multiplier: 2.0             # exponential backoff
+          max-interval: 10000         # cap at 10 seconds
+        # After max retries, do NOT requeue – send to DLQ
+        default-requeue-rejected: false
+        acknowledge-mode: auto
+        prefetch: 10                  # Q14: QoS prefetch count
+
+logging:
+  level:
+    com.globalbooks: DEBUG
+    org.springframework.amqp: INFO
