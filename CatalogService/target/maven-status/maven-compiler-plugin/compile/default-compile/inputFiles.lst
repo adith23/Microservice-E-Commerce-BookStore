@@ -1,7 +1,0 @@
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\exception\BookNotFoundFaultInfo.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\exception\BookNotFoundException.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\model\PriceResponse.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\CatalogPortType.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\CatalogServiceImpl.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\model\Book.java
-C:\Projects\SOA & Microservices\CatalogService\src\main\java\com\globalbooks\catalog\security\WsSecurityHandler.java

@@ -1,3 +1,0 @@
-com\globalbooks\payments\PaymentsApplication.class
-com\globalbooks\payments\config\RabbitMQConfig.class
-com\globalbooks\payments\consumer\PaymentsConsumer.class

@@ -1,3 +1,0 @@
-com\globalbooks\shipping\ShippingApplication.class
-com\globalbooks\shipping\config\RabbitMQConfig.class
-com\globalbooks\shipping\consumer\ShippingConsumer.class

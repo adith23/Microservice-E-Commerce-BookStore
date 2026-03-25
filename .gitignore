@@ -1,0 +1,32 @@
+# Maven
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDEs
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+*.iws
+
+# Logs
+log/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Java
+*.class
+
+# Node (if any)
+node_modules/
+
+# Docker build artifacts
+*.jar

@@ -1,7 +1,0 @@
-com\globalbooks\catalog\model\Book.class
-com\globalbooks\catalog\CatalogPortType.class
-com\globalbooks\catalog\exception\BookNotFoundFaultInfo.class
-com\globalbooks\catalog\CatalogServiceImpl.class
-com\globalbooks\catalog\exception\BookNotFoundException.class
-com\globalbooks\catalog\model\PriceResponse.class
-com\globalbooks\catalog\security\WsSecurityHandler.class
