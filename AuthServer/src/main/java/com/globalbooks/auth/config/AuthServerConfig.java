@@ -107,7 +107,7 @@ public class AuthServerConfig {
     public RegisteredClientRepository registeredClientRepository() {
         RegisteredClient ordersClient = RegisteredClient.withId(UUID.randomUUID().toString())
             .clientId("orders-client")
-            .clientSecret("{noop}secret")
+            .clientSecret("secret")
             .clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_POST)
             .clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_BASIC)
             .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)

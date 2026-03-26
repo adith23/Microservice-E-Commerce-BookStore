@@ -20,6 +20,13 @@
          queryLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0"
          expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0">
 
+    <import location="PlaceOrder.wsdl" namespace="http://globalbooks.com/bpel/v1/placeorder"
+            importType="http://schemas.xmlsoap.org/wsdl/"/>
+    <import location="catalog.wsdl" namespace="http://catalog.globalbooks.com/v1"
+            importType="http://schemas.xmlsoap.org/wsdl/"/>
+    <import location="orders.wsdl" namespace="http://orders.globalbooks.com/v1"
+            importType="http://schemas.xmlsoap.org/wsdl/"/>
+
     <!-- ================================================================= -->
     <!-- Partner Links                                                        -->
     <!-- ================================================================= -->
